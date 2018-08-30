@@ -1,0 +1,22 @@
+{
+  "name": "state-mint",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "create-react-context": "^0.2.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.5"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-react-optimize": "^1.0.1",
+    "react-app-rewired": "^1.5.2"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build && open http://localhost:5000 && serve -s build"
+  },
+  "peerDependencies": {}
+}
